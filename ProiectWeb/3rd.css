@@ -1,0 +1,279 @@
+.navbar {
+    overflow: hidden;
+    background-image:url('pattern.png');
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: orange;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Trocchi';font-size: 16px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image:url('pattern.png');
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color:orange;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Trocchi';font-size: 22px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.head{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-columns:15% 70% 15%;
+    grid-template-rows:150px;
+    padding: 0px;
+    position:sticky;
+}
+.head-a{
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    text-align:center;
+    font-size:4vw;
+    font-size:6vh;
+    padding:20px;
+    background-image:url('pattern.png');
+    width: 100%;
+    height: auto;
+}
+.head-b{
+    
+    font-size:550%;
+    padding:20px;
+}
+
+.imgst {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    background-image:url('ford123.jpg');
+    background-size: 100% 100%;
+    position:relative;
+}
+
+.imgdr {
+    width:100%;
+    background-size: 100% 100%;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    background-image:url('ford1234.jpg');
+    position:relative;
+}
+
+
+.body{
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+    
+    
+}
+.body-a{
+    grid-column-start:1/2;
+    grid-row-start:1/2;
+
+    
+}
+.body-b{
+    grid-column-start:1/2;
+    grid-row-start:1/2;
+    background-image:url('pattern.png');
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-top: 0px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    opacity:0.8;
+}
+
+h1{
+    margin-left:40px;
+    color:rgb(223, 144, 17);
+    opacity:1;
+}
+h2{
+    text-align:center;
+    font-size:16px;
+    color:orange;
+}
+p{
+    font-size:25px;
+    color:rgb(45, 223, 214);
+}
+a{
+    color:rgb(45, 223, 214);
+}
+
+body {
+    background-image: url('thirdgen.jpg');
+    background-repeat: repeat;
+    background-size:cover;
+    padding: 1%;
+    font-family: 'Trocchi';font-size: 22px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.imgshow{
+    width:90%;
+    position: relative;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    grid-template-rows:400px 400px;
+    padding: 0px;
+
+}
+.imgshow-a{
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    background-image: URL("3gen/1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.imgshow-a:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgshow-b{
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    background-image: URL("3gen/2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+
+}
+.imgshow-b:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgshow-c{
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    background-image: URL("3gen/3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+.imgshow-c:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgshow-d{
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    background-image: URL("3gen/4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.imgshow-d:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgshow-e{
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    background-image: URL("3gen/5.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.imgshow-e:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgshow-f{
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    background-image: URL("3gen/6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.imgshow-f:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
