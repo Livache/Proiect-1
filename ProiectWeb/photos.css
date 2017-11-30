@@ -168,10 +168,17 @@ table, th, td {
     position: relative;
     left: 4.5%;
     display: grid;
-    grid-template-columns:30% 30% 30%;
+    grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:400px 400px;
     padding: 0px;
 
+}
+
+@media screen and (max-width:760px){
+    .imgshow{
+            grid-template-columns:auto;
+            grid-template-rows:repeat(6,400px);
+    }
 }
 .imgshow-a{
     border: 5px solid rgba(0, 0, 0, 0.8);
